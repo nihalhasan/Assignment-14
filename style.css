@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website{
+    width: 1240px;
+    margin: auto;
+}
+/* menu start */
+.menu{
+    margin: auto;
+    text-align: center;
+}
+.menu ul{
+    padding: 10px;
+  
+    
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #48dbfb;
+  
+
+}
+.menu ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+   
+}
+.menu ul li:hover{
+    background-color: #fff;
+ 
+}
+.menu ul li a:hover{
+    color: #48dbfb;
+}
+.menu ul li ::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+}
+.menu ul li a:hover::before{
+    width: 100%;
+ 
+}
+/* menu end */
+
+/* Icon section */
+.planner{
+    margin-top:-20px;
+    text-align: center;
+    margin: auto;
+    background-color: #48dbfb;
+    padding: 100px;
+    color: #f4f4f4;
+  
+    font-family: 'Raleway', sans-serif;
+ 
+}
+p{
+    font-weight: 600;
+    
+}
+.App{
+    font-size: 45px;
+    
+}
+.google-div a{
+    padding: 15px;
+    text-decoration: none;
+    color: gray;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.google-div a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    font-weight: 600;
+    margin-right: 5px;
+    transition: .5s;
+    z-index: -1;
+  
+}
+
+.google-div a:hover::before{
+    width: 100%; 
+    
+} 
+.Vivamus{
+    padding: 80px;
+    text-align: center;
+    background-color: #f7f9f9;
+}
+h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+/* Photo section start */
+.main-img{
+  text-align: center;
+  background-color: #fff;
+  margin: 50px auto;
+
+ 
+}
+.main-img .pic1{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic1 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic1 img:hover{
+    transform: rotate(360deg);
+    
+}
+.main-img .pic2{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic2 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic2 img:hover{
+    transform: skew(-26deg , 9deg);
+    
+}
+.main-img .pic3{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic3 img{
+    max-width: 100%;
+    transition: .5s;
+    
+}
+.main-img .pic3 img:hover{
+    transform: skew(19deg , -19deg);
+    
+}
+.main-img .pic4{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic4 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic4 img:hover{
+    transform: skew(19deg , -19deg);
+    
+}
+.main-img .pic5{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic5 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic5 img:hover{
+    transform: skew(-26deg , 9deg) scale(1.2);
+    
+}
+.main-img .pic6{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic6 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic6 img:hover{
+    transform: rotate(360deg);
+    
+}
+.main-img .pic7{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic7 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic7 img:hover{
+    transform: scale(1.2) rotate(5deg);
+    
+}
+.main-img .pic8{
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+}
+.main-img .pic8 img{
+    max-width: 100%;
+    transition: .5s;
+}
+.main-img .pic8 img:hover{
+    transform: scale(1.1) rotate(-5deg);
+    
+}
+/* Photo section end */
+
+.watch-vedio{
+    
+    text-align: center;
+}
+.watch-vedio p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+}
+.watch-vedio h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+/* button section */
+
+.all-step{
+    background-color: #fff;
+    text-align: center;
+    height: 80px;
+    margin-left: -320px;
+}
+.all-step ul{
+    position: relative;
+}
+.all-step ul li{
+    display: inline-block;
+    background-color: black;
+    padding: 15px ;
+    margin-left: 344px;
+    margin-top: 30px;
+}
+.all-step ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+.all-step ul li:nth-child(1){
+    left: 200px;
+    transform: rotate(-50deg);
+    transition: .4s;
+
+}
+.all-step ul li:nth-child(1):hover{
+    background-color: #48dbfb ;
+    color: black;
+    transform: rotate(0deg) scale(1.1);
+}
+.all-step ul li:nth-child(2){
+    left: 200px;
+    transition: .4s;
+
+}
+.all-step ul li:nth-child(2):hover{
+    background-color: #48dbfb ;
+    color: black;
+    transform: scale(1.1);
+  
+}
+.all-step ul li:nth-child(3){
+    left: 200px;
+    transform: rotate(50deg);
+    transition: .4s;
+
+}
+.all-step ul li:nth-child(3):hover{
+    background-color: #48dbfb ;
+    color: black;
+    transform: rotate(0deg)scale(1.1);
+}
+
+/* Footer section */
+footer{
+    padding: 15px;
+    background-color: #2e2f31;
+    text-align: center;
+    margin-top: 15px;
+}
+.copy-right{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
